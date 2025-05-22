@@ -17,3 +17,11 @@ print(s3[0:8:2])  # traverse with skip
 # get string length
 print(len(s3))
 
+# function,variable or logic description
+multi_line_str="""
+hey
+I 
+am
+multiline 
+string...
+"""
