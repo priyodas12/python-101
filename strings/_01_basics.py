@@ -25,3 +25,8 @@ am
 multiline 
 string...
 """
+
+# incorporated single quote
+s4="mark's marks"
+
+print(s4)
