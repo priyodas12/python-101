@@ -1,3 +1,6 @@
+# string is immutable, once created cannot be modified.
+# modification will create new string
+
 s1="hello"
 s2=str(123)
 print(f"example of strings: {s1}, {s2}")
