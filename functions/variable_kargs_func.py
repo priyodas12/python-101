@@ -16,3 +16,11 @@ def var_length_keyword_args_func_special(x,y,**kwargs):
     print(x,y,kwargs)
 
 var_length_keyword_args_func_special(1,2,a=90,b=23)
+
+#special cases
+
+def mixed_args_func_special(*args,x,y,**kwargs):
+    print(args,x,y,kwargs)
+
+mixed_args_func_special(1,2,3,5,6,x=10,y=90,z=92)
+#(1, 2, 3, 5, 6) 10 90 {'z': 92}
