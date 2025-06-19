@@ -13,3 +13,8 @@ print(next(iterator))
 print(next(iterator))
 #StopIteration Error here
 #print(next(iterator))
+
+numbers=range(3,10)
+
+it1=iter(numbers)
+print(next(it1))
