@@ -9,3 +9,12 @@ def fun():
 
 fun()
 print(f"global-2: {g}")
+
+m,n,o='abc',90.93,True
+
+def print_locals():
+    a,b,c=3,True,"test"
+    print(locals())
+    print(globals()) # will also print predefined global var as well
+
+print_locals()
