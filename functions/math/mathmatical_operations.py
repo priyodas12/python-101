@@ -27,3 +27,6 @@ print(min([],default="empty list"))
 print(sum(num_list))
 
 print(eval("34*67-23+83/4*526"))
+
+x=globals()
+y=locals()
