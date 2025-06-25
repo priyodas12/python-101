@@ -9,7 +9,7 @@ except ValueError as msg:
     print(f"{msg}: \nindex must be integer, actually we received: {index}")
 except IndexError as msg:
     print(f"{msg}: \ninvalid index value entered: {index}")
-except:
-    print(f"Generic Error")
+except Exception as e:
+    print(f"Generic Error: {e}")
 finally:
     print(f"Executed at: {datetime.today()}")
