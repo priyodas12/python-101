@@ -1,5 +1,7 @@
 class Rectangle:
     def __init__(self):
+        print("init method called")
+        print(self)
         self.length=10
         self.breadth=20
 
