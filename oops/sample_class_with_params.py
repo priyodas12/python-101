@@ -5,6 +5,7 @@ class Rectangle:
         self.length=length
         self.breadth=breadth
 
+    #  methods
     def area(self):
         return self.length*self.breadth
 
@@ -19,4 +20,4 @@ print(f"Perimeter of Rectangle: {r1.perimeter()}")
 
 print(id(r1))
 
-# self : reference to the current object
+# self : reference to the current object, self is not keyword, any other can be replaced by self
