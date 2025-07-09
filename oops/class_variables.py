@@ -19,6 +19,10 @@ class House:
         """)
 
     # class method
+    # common for all instances
+    # can be accessed using object or class name
+    # used as shared data
+    # used decorator @classmethod
     @classmethod
     def house_generic_data(cls):
         print(cls.architect)
@@ -28,4 +32,5 @@ for i in range(2352, 2389, 2):
     h1 = House(area=i * 3, location="Bangalore", price=i * 523)
     h1.print_house_metadata()
     House.house_generic_data()
+    h1.house_generic_data()
 
