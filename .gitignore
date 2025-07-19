@@ -1,3 +1,11 @@
+# PyCharm project settings
 .idea/
-.venv
-.gitignore
+
+# Virtual environment
+.venv/
+.env/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
