@@ -1,6 +1,6 @@
 # PyCharm project settings
 .idea/
-
+**/.env
 # Virtual environment
 .venv/
 .env/
