@@ -21,7 +21,7 @@ connection=mysql.connector.connect(
 cursor=connection.cursor()
 print(f"connected to MySQL database {my_sql_db} at {datetime.now()}")
 cursor.execute(
-     "SELECT * FROM orders"
+     "SELECT * FROM orders_db.orders"
 )
 for row in cursor.fetchall():
     print(f"\n{row}")
