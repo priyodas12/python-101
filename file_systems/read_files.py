@@ -1,5 +1,5 @@
 # reading  mode
-f=open("./readme.txt",'r')
+f=open("readme.txt", 'r')
 
 file_content=f.read()
 
