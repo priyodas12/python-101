@@ -33,3 +33,7 @@ string...
 s4="mark's marks"
 
 print(s4)
+
+print(s4[2])
+# TypeError: 'str' object does not support item assignment
+# s4[3]="test"
